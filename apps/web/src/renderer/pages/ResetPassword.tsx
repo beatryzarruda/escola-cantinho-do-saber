@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import ResetPasswordForm from '../components/login/ResetPasswordForm';
 import styles from '../styles/login-page.module.css';
 import formStyles from '../components/login/LoginForm.module.css';
-import logoCantinho from '../assets/logoCantinho.png';
+import LogoCantinho from '../assets/LogoCantinho.png';
 
 export default function ResetPasswordPage() {
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ export default function ResetPasswordPage() {
         ←
       </button>
 
-      <img src={logoCantinho} alt="Logo Cantinho do Saber" className={styles.img} />
+      <img src={LogoCantinho} alt="Logo Cantinho do Saber" className={styles.img} />
       <div className={styles.cardRequest}>
         <ResetPasswordForm />
       </div>
