@@ -10,6 +10,7 @@
     "start": "pnpm turbo run start",
     "dev": "pnpm turbo run dev",
     "build": "pnpm turbo run build",
+    "test": "pnpm turbo run test",
     "lint": "pnpm turbo run lint",
     "db:generate": "pnpm --filter=@repo/database run generate",
     "db:run": "pnpm --filter=@repo/database run init"
@@ -18,7 +19,8 @@
     "eslint": "^9.10.0",
     "prettier": "^3.3.0",
     "turbo": "^2.5.8",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.17"
   },
   "dependencies": {
     "tsyringe": "^4.10.0",

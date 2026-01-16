@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "tsc --noEmit && ts-node-dev -r tsconfig-paths/register --respawn --watch src --ignore-watch node_modules src/server.ts",
     "build": "tsc",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "test": "vitest run"
   },
   "dependencies": {
     "@prisma/client": "^6.17.1",
