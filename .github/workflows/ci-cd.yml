@@ -2,9 +2,9 @@ name: CI/CD Pipeline - Cantinho do Saber
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "configuration-management" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "configuration-management" ]
 
 jobs:
   # JOB 1: VALIDAÇÃO E TESTES (Obrigatório passar aqui primeiro)
